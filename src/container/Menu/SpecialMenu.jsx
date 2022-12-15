@@ -10,7 +10,7 @@ const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding" id="menu">
     {/* title container */}
     <div className="app__specialMenu-title">
-      <SubHeading title="Example" />
+      <SubHeading title="Menu" />
       <h1 className="headtext__cormorant">Today's Special</h1>
     </div>
 
@@ -18,15 +18,15 @@ const SpecialMenu = () => (
     <div className="app__specialMenu-menu">
       {/* LEFT CONTAINER */}
       <div className="app__specialMenu-menu_left flex__center">
-        <p className="app__specialMenu_menu_heading">Wine & Beer</p>
+        <p className="app__specialMenu_menu_heading">Dinner</p>
 
         <div className="app__specialMenu_menu-items">
-          {data.wines.map((wine, index) => (
+          {data.dinners.map((dinner, index) => (
             <Menuitem
-              key={wine.title + index}
-              title={wine.title}
-              tags={wine.tags}
-              price={wine.price}
+              key={dinner.title + index}
+              title={dinner.title}
+              tags={dinner.tags}
+              price={dinner.price}
             />
           ))}
         </div>
@@ -39,7 +39,7 @@ const SpecialMenu = () => (
 
       {/* RO=IGHT CONTAINER */}
       <div className="app__specialMenu-menu_right flex__center">
-        <p className="app__specialMenu_menu_heading">Cocktails</p>
+        <p className="app__specialMenu_menu_heading">Wine & Beer</p>
 
         <div className="app__specialMenu_menu-items">
           {data.cocktails.map((cocktail, index) => (

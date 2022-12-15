@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="app__navbar">
       {/* LOGO */}
       <div className="app__navbar-logo">
-        <img src={images.gericht} alt="logo" />
+        <img src={images.logo} alt="logo" />
       </div>
 
       {/* lIST OF NAVIGATORS */}

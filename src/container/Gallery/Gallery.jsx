@@ -41,9 +41,8 @@ const Gallery = () => {
           className="p__opensans"
           style={{ color: "#aaa", marginTop: "2rem", marginBottom: "1rem" }}
         >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
-          distinctio deserunt praesentium molestias, numquam doloribus
-          temporibus tempora quaerat harum vero?
+          A photo gallery of Nepali cuisine that showcases the rich, diverse
+          flavors and ingredients of this vibrant culinary tradition.
         </p>
 
         <button type="button" className="custom__button">

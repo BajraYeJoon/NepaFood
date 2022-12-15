@@ -13,9 +13,7 @@ const FindUs = () => (
 
       {/* Info Container */}
       <div className="app__wrapper-content">
-        <p className="p__opensans">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, labore.
-        </p>
+        <p className="p__opensans">Bhaktapur Durbar Square, 44800</p>
 
         <p
           className="p__cormorant"

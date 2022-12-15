@@ -1,30 +1,30 @@
 import images from "./images";
 
-const wines = [
+const dinners = [
   {
-    title: "Chapel Hill Shiraz",
-    price: "$56",
-    tags: "AU | Bottle",
+    title: "Aloo Tama",
+    price: "80",
+    tags: "vegetarian | spicy",
   },
   {
-    title: "Catena Malbee",
-    price: "$59",
-    tags: "AU | Bottle",
+    title: "Sekuwa",
+    price: "120",
+    tags: "non-vegetarian | grilled",
   },
   {
-    title: "La Vieillw Rose",
-    price: "$44",
-    tags: "FR | 750 ml",
+    title: "Dhido",
+    price: "89",
+    tags: "gluten-free | traditional",
   },
   {
-    title: "Rhino Pale Ale",
-    price: "$31",
-    tags: "CA | 750 ml",
+    title: "Cauliflower and Pea Curry",
+    price: "56",
+    tags: "vegetarian | gluten-free",
   },
   {
-    title: "Irish Guinness",
-    price: "$26",
-    tags: "IE | 750 ml",
+    title: "Chicken Momo",
+    price: "65",
+    tags: "non-vegetarian | steamed",
   },
 ];
 
@@ -59,24 +59,24 @@ const cocktails = [
 const awards = [
   {
     imgUrl: images.award02,
-    title: "Bib Gourmond",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "Cuisine Inventory",
+    subtitle: "Exploring the Ingredients of Nepali Cuisine",
   },
   {
     imgUrl: images.award01,
     title: "Rising Star",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    subtitle: "Best Growing Restaurant.",
   },
   {
     imgUrl: images.award05,
-    title: "AA Hospitality",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "A+ Hospitality",
+    subtitle: "Service that showcase traditonality.",
   },
   {
     imgUrl: images.award03,
     title: "Outstanding Chef",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    subtitle: "Deliverance of quality.",
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { dinners, cocktails, awards };

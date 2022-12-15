@@ -14,30 +14,35 @@ const Chef = () => (
 
     {/* content */}
     <div className="app__wrapper_info">
-      <SubHeading title="Chef's " />
+      <SubHeading title="Chef's Word" />
       <h1 className="headtext__cormorant">What We Believe In</h1>
 
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="quote" />
           <p className="p__opensans">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Recusandae, optio animi magnam modi laborum laudantium ea deserunt
-            quas molestias voluptatum.{" "}
+            As chefs dedicated to Nepali cuisine, we believe in using fresh,
+            high-quality ingredients to create dishes that showcase the rich,
+            diverse flavors of our culture.
           </p>
         </div>
 
         <p className="p__opensans">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-          adipisci nulla harum molestiae eaque magnam enim non fuga architecto
-          nobis.
+          We strive to create a unique dining experience for our customers, one
+          that celebrates the beauty and complexity of Nepali food. Above all,
+          we believe in the importance of bringing people together through the
+          shared enjoyment of delicious, carefully prepared meals.
         </p>
       </div>
 
       <div className="app__chef-sign">
-        <p className="p__cormorant"> Example Name</p>
+        <p className="p__cormorant"> Isha Bajracharya </p>
         <p className="p__opensans">Chef</p>
-        <img src={images.sign} alt="sign" />
+        <img
+          src={images.sign}
+          alt="sign"
+          style={{ width: "40%", height: "60%" }}
+        />
       </div>
     </div>
   </div>

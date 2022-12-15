@@ -18,16 +18,16 @@ const Footer = () => (
       {/* Contact */}
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>
-        <p className="p__opensans">Address</p>
-        <p className="p__opensans">Number</p>
-        <p className="p__opensans">number1</p>
+        <p className="p__opensans">Bhaktapur Durbar, 44800 , Nepal</p>
+        <p className="p__opensans">+977-9860756619</p>
+        <p className="p__opensans">+977-9803920174</p>
       </div>
 
       {/* lOGO */}
       <div className="app__footer-links_logo">
-        <img src={images.gericht} alt="logo" />
+        <img src={images.logo} alt="logo" />
         <p className="p__opensans">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ab.
+          Fine Dining | Cultural Experience | Great View.
         </p>
         <img
           src={images.spoon}
@@ -52,7 +52,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">2022 NepaFood. All Rights Reserved.</p>
+      <p className="p__opensans">2022 NepaFood. Bajraya</p>
     </div>
   </div>
 );

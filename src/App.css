@@ -91,7 +91,7 @@
 .headtext__cormorant {
   font-family: var(--font-base);
   color: var(--color-golden);
-  font-size: 64px;
+  font-size: 61px;
   line-height: 83.2px;
   letter-spacing: 0.04em;
   text-transform: capitalize;
@@ -114,7 +114,7 @@
   }
 
   .headtext__cormorant {
-    font-size: 150px;
+    font-size: 120px;
     line-height: 210px;
   }
 

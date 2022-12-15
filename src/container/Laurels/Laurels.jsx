@@ -35,7 +35,7 @@ const Laurels = () => (
 
     {/* IMAGE CONTAINER */}
     <div className="app__wrapper_img">
-      <img src={images.laurels} alt="award" />
+      <img src={images.laurels} alt="award" style={{ scale: "1.1" }} />
     </div>
   </div>
 );

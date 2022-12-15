@@ -10,7 +10,7 @@ const AboutUs = () => (
   >
     {/* Overlay background  */}
     <div className="app__aboutus-overlay flex__center">
-      <img src={images.G} alt="g" />
+      <img src={images.N} alt="n" />
     </div>
 
     {/* CONTENT CONTAINER */}
@@ -30,8 +30,8 @@ const AboutUs = () => (
       </div>
 
       {/* MIDDLE IMG */}
-      <div className="app__aboutus-content_knife">
-        <img src={images.knife} alt="knife" />
+      <div className="app__aboutus-content_anti">
+        <img src={images.anti} alt="anti" />
       </div>
 
       {/* RIGHT CONTENT CONTAINER */}
