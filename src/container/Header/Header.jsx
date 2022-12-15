@@ -9,15 +9,15 @@ const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">
     {/* Header Information */}
     <div className="app__wrapper_info">
-      <SubHeading title="Experience the burst of flavors" />
+      <SubHeading title="Experience the culture of cuisine" />
       <h1 className="app__header-h1">A Place for Fine Dining</h1>
       <p className="p__opensans" style={{ margin: "2rem 0" }}>
         {" "}
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
-        error excepturi illum temporibus aperiam nihil?
+        The home of the traditional cuisine providing years of exquisite service
+        by renowned local chef's
       </p>
       <button type="button" className="custom__button">
-        Explore Menu
+        Explore More
       </button>
     </div>
     {/* Header Image */}

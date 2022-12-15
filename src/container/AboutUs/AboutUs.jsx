@@ -20,8 +20,9 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="spoon" className="spoon__img" />
         <p className="p__opensans">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
-          delectus vero saepe ducimus sunt doloribus.
+          We are the home to the traditional Nepali cuisines. We provide the
+          taste of what native loves and immerse you in the cultural aspect of
+          the food
         </p>
         <button type="button" className="custom__button">
           Know More
@@ -38,11 +39,12 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">Our Mission</h1>
         <img src={images.spoon} alt="spoon" className="spoon__img" />
         <p className="p__opensans">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
-          delectus vero saepe ducimus sunt doloribus.
+          Nepali cuisines are diverse and filled with fusions of spices and
+          creativity. We ensure to provide you the experience that you have not
+          find elsewhere.
         </p>
         <button type="button" className="custom__button">
-          Dive Deep
+          Book The Table
         </button>
       </div>
     </div>
